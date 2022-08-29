@@ -1,0 +1,43 @@
+﻿.center {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 10px;
+    text-align: center;
+}
+
+.gametable {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.gametable td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 20%;
+    height: 100px;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.dropdown {
+    position: absolute;
+    margin-top: -40px;
+}
+
+.dropdowntable {
+    border: 0px;
+    width: 380px
+}
+
+.dropdowntable td {
+    height: 20px;
+    border: none;
+}
+
+.graytext {
+    color: #C0C0C0
+}
